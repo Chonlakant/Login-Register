@@ -1,17 +1,28 @@
 # login_and_register
 
-A new Flutter project.
+แบบทดสอบโปรแกรมเมอร์
 
-## Getting Started
+จงสร้างแอพสำหรับล็อกอิน-เอ้าท์ และสมัครสมาชิก( คะแนนเต็ม 100 คะแนน)
 
-This project is a starting point for a Flutter application.
+เขียนแอพขึ้น UI ตามแบบ 3 หน้า (รูปภาพโลโก้อยู่ที่โฟลเดอร์ Artwork) (20 คะแนน)
+1) หน้าล็อกอินด้วย User และ Password
+2) หน้าสมัครสมาชิก
+3) หน้าแสดงเข้าสู่ระบบสำเร็จ 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+สร้างโปรเจ็คที่ Firebase โดยเปิดใช้งาน Service ดังนี้ (20 คะแนน)
+  1) Firebase Database (Cloud Firestore)
+2) Firebase Storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Login-Register
+เมื่อสมัครสมาชิกข้อมูลจะต้องบันทึกเข้าระบบดังนี้ (20 คะแนน)
+1) ข้อมูลสมาชิกจะต้องบันทึกเข้าที่ Firebase Database (Cloud Firestore)
+2) รูปภาพประจำตัวจะต้องบันทึกเข้าที่ Firebase Storage	
+
+เมื่อล็อกอินเข้าสู่ระบบ (20 คะแนน)
+1) ต้องดึงข้อมูลสมาชิกที่บันทีกใน Firebase Database มาแสดงผลได้
+2) ต้องดึงรูปภาพประจำตัวที่บันทีกใน Firebase Storage มาแสดงผลได้
+3) กดปุ่มล็อกเอ้าท์ออกจากระบบต้องกลับไปที่หน้าล็อกอินได้
+
+ส่งผลงานดังนี้ (20 คะแนน)
+1) อัพโหลดโค้ดขึ้น Github พร้อมส่งลิงค์ที่อัพโหลด
+2) อัดวิดีโอสาธิตการสมัครสมาชิก ล็อกอิน ล็อกเอ้าท์ ในแอพ
